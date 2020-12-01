@@ -1,0 +1,28 @@
+{
+  "name": "sanbox-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test:unit": "mocha -r ts-node/register test/unit/**/*.spec.ts",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeguerra/sanbox-typescript.git"
+  },
+  "author": "Abe Guerra",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/abeguerra/sanbox-typescript/issues"
+  },
+  "homepage": "https://github.com/abeguerra/sanbox-typescript#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.4",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
